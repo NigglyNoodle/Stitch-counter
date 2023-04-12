@@ -1,0 +1,77 @@
+body {
+    font-family: Cantarell;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(226,139,148,255);
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: rgb(253,166,2,0.6);
+    border-color: rgb(253,166,2,0.8);
+}
+#increment-btn:hover {
+    background: rgb(253,166,2,255);
+}
+
+#save-btn {
+    background: rgb(6,78,114,0.6);
+    border-color: rgb(6,78,114,0.8);
+}
+
+#save-btn:hover {
+    background: rgb(6,78,114,1);
+}
+
+.main-app {
+    margin: auto;
+    padding: 50px;
+    max-width: 500px;
+    min-height: 100vh;
+    background-image: url("karen-penroz-06ZTGDcAQFs-unsplash.jpg");
+    background-size: cover;
+  }
+
+a {
+    text-decoration: none;
+    color: rgb(253,166,2,1)
+  }
+
+#save-el {
+    padding: 20px;
+    border-color: rgba(226,139,148,255);
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(226,139,148,0.5);
+
+  }
+
+.credit {
+    color: white;
+    font-weight: normal;
+    padding: 50px 0;
+
+  }
