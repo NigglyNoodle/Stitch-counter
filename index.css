@@ -3,7 +3,6 @@ body {
     font-weight: bold;
     text-align: center;
     color: rgba(226,139,148,255);
-
 }
 
 h1 {
@@ -33,16 +32,18 @@ button {
     background: rgb(253,166,2,0.6);
     border-color: rgb(253,166,2,0.8);
 }
-#increment-btn:hover {
+
+#increment-btn:active {
     background: rgb(253,166,2,255);
 }
 
-#save-btn {
+#reset-btn {
     background: rgb(6,78,114,0.6);
     border-color: rgb(6,78,114,0.8);
+    transition: all 0.3s;
 }
 
-#save-btn:hover {
+#reset-btn:hover {
     background: rgb(6,78,114,1);
 }
 
